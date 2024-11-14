@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerJcoin - Onboarding</title>
+    <style>
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        body, html {
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        .onboarding-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 90vw;
+            max-width: 400px;
+        }
+
+        /* Logo Styling */
+        .logo {
+            font-size: 2em;
+            font-weight: bold;
+            margin-top: 20px;
+            color: #fff;
+        }
+
+        .highlight {
+            color: #ffeb3b; /* Yellow highlight */
+        }
+
+        /* Hamster Image */
+        .hamster-image {
+            width: 100%;
+            max-width: 350px;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Start Button */
+        .start-button {
+            text-decoration: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #fff;
+            background-color: #005cff; /* Blue button color */
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            box-shadow: 0px 4px 8px rgba(0, 92, 255, 0.5);
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .start-button:hover {
+            background-color: #0046d1; /* Darker blue on hover */
+            transform: scale(1.05);
+            
+        }
+
+        /* Footer Text */
+        .footer-text {
+            font-size: 0.9em;
+            color: #aaa;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="onboarding-container">
+        <!-- Logo Section -->
+        <div class="logo">POWER<span class="highlight">JCOIN</span></div>
+
+        <!-- Hamster Image -->
+        <img src="onboarding-screen.jpg" alt="PowerJcoin Hamster" class="hamster-image">
+
+        <!-- Start Button -->
+        <button class="start-button"><a href="index.html">Let’s Start!</a></button>
+
+        <!-- Footer Text -->
+        <p class="footer-text">Powerj<span class="highlight">coin</span> funded by powerj</p>
+    </div>
+</body>
+</html>
